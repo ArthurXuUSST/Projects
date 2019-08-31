@@ -1,0 +1,2 @@
+git remote add origin git@github.com:ArthurXuUSST/Projects.git
+git push -u origin master
