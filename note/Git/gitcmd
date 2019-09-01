@@ -1,2 +1,8 @@
 git remote add origin git@github.com:ArthurXuUSST/Projects.git
 git push -u origin master
+
+/*merge without Fast forward mode*/
+git merge --no-ff -m "[info]" [branch]
+
+/*merge specific commit*/
+git cherry-pick [issune-no]
