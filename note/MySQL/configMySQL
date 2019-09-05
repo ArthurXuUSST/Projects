@@ -1,0 +1,11 @@
+mysqld --initialize --user=mysql --console
+
+mysqld install MySQL --defaults-file="absolute path of my.ini"
+
+net start mysql
+
+mysql -u root -p
+
+set password = password("new password");
+
+show databases;

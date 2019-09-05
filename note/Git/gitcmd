@@ -6,3 +6,6 @@ git merge --no-ff -m "[info]" [branch]
 
 /*merge specific commit*/
 git cherry-pick [issune-no]
+
+/*if git pull fails and the hint is "no tracking information"*/
+git branch --set-upstream-to <branch-name> origin/<branch-name>
